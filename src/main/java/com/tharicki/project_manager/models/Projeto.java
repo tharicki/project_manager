@@ -25,10 +25,10 @@ public class Projeto implements Serializable {
     @NotNull(message = "Responsavel do projeto é obrigatorio")
     private Pessoa gerente;
 
-    @Column(name = "previsao_termino")
+    @Column(name = "data_previsao_fim")
     private Date previsaoTermino;
 
-    @Column(name = "data_termino")
+    @Column(name = "data_fim")
     private Date dataTermino;
 
     private Double orcamento;
